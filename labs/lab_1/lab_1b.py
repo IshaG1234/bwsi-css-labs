@@ -39,12 +39,19 @@ def simple_calculator(operation: str, num1: float, num2: float) -> float:
 
 def request_sanitized_number(prompt: str) -> float:
     """
+tests/simple_calculator
    Function to request and sanitize user input for the operation
 
    Returns:
        float: The sanitized number input by the user.
     """
 
+    Function that prompts the user for a number and ensures that the input is valid.
+
+    Returns:
+        float: The sanitized number input by the user.
+    """
+main
     while True:
         try:
             return float(input(prompt))
