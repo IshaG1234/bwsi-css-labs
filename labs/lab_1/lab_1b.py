@@ -19,13 +19,7 @@ def request_sanitized_number(prompt: str) -> float:
             return float(input(prompt))
         except ValueError:
             print("Invalid input. Please enter a valid number.")
-<<<<<<< Updated upstream
-def main():
-    
-    print("===== Simple Calculator =====")
-=======
->>>>>>> Stashed changes
-
+            
 def main():
     print("Simple Calculator")
     num1 = request_sanitized_number("Enter the first number: ")
